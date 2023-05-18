@@ -13,3 +13,10 @@ Radar는 자율주행 차에 있어 차량과의 거리, 상대 속도, 방향 �
 -------------
 > * 2022년 8월 01일 10:00 ~ 2022년 8월 26일 17:00
 > * 주최 : LG AI Research
+
+
+내용 요약
+-------------
+최종모델은 lgbm, xgboost, random forest를 optuna를 통해 최적의 파라미터를 추출하고 이 셋 모델을 앙상블.
+파생변수를 다각적으로 생성하여 데이터셋을 추가로 다섯개로 만들고,
+이에 대한 xgboost prediction 값을 attention score를 기반으로 ensemble
