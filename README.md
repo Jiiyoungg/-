@@ -20,3 +20,4 @@
 > 최종모델은 lgbm, xgboost, random forest를 optuna를 통해 최적의 파라미터를 추출하고 이 셋 모델을 앙상블.
 > 파생변수를 다각적으로 생성하여 데이터셋을 추가로 다섯개로 만들고,
 > 이에 대한 xgboost prediction 값을 attention score를 기반으로 ensemble
+> + 딥러닝 기본DNN을 이용한 예측 파일과 averaging ensemble 또한 추가 진행
